@@ -26,9 +26,9 @@ Since we have some dynamic factors in those messages, namely the current player,
 we have declared them as functions, so that the actual message gets created with 
 current data every time we need it.
 */
-const winningMessage = () => `Player ${currentPlayer} has won!`;
-const drawMessage = () => `Game ended in a draw!`;
-const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
+const winningMessage = () => ` Congratulations "${currentPlayer}"! You have won!`;
+const drawMessage = () => ` Oops its a draw. Lets go again!`;
+const currentPlayerTurn = () => `"${currentPlayer}"! It's your turn.`;
 /*
 We set the inital message to let the players know whose turn it is
 */
