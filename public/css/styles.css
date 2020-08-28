@@ -30,17 +30,28 @@ section {
     left: -3px;
     font-family: 'Courier New', Courier, monospace;
     font: bold 52px Helvetica, Arial, Sans-Serif;
-    color: rgb(247, 251, 252);
-    text-shadow: 1px 1px #080300, 2px 2px #7e7875, 3px 3px #eff3f1, 4px 4px #5a2e1d, 5px 5px #fe4902, 6px 6px #fe4902;
+    color: rgb(30, 30, 31);
+    text-shadow: 1px 1px #080300, 2px 2px #7e7875, 3px 3px #eff3f1, 4px 4px #5a2e1d, 5px 5px #83161b, 6px 6px #02edfe;
+}
+
+.game--status {
+    position: relative;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    font: bold 52px Helvetica, Arial, Sans-Serif;
+    color: #7c3f3f;
+    font-style: italic;
+    text-shadow: 1px 1px #3071a7, 2px 2px #160b06, 3px 3px #7ce4f1, 4px 4px #161110, 5px 5px #162150, 6px 6px #070707;
 }
 
 .cell {
     font-family: "Permanent Marker", cursive;
     width: 100px;
     height: 100px;
-    box-shadow: 0 0 0 1px #333333;
-    border: 1px solid #333333;
+    box-shadow: 0 12px 30px 0 rgba(29, 28, 28, 0.6), 0 17px 50px 0 rgba(0, 0, 0, 0.30);
+    border: 1px solid #e70909;
     cursor: pointer;
-    line-height: 100px;
+    line-height: 80px;
     font-size: 60px;
+    border: 10px solid rgb(54, 8, 8)
 }
